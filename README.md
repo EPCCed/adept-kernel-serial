@@ -17,9 +17,15 @@ See the License for the specific language governing permissions and
 limitations under the License.
 
 
-# Adept Kernel Benchmarks - Serial
+#Adept Kernel Benchmarks - Serial
 
 This README describes the serial kernel benchmarks. They are implemented in C.
+
+## Citation & Further Information
+If you would like to cite this work, please cite:
+Nick Johnson et al., "Adept Deliverable D2.3 - Updated Report on Adept Benchmarks", September 2015.
+available at http://www.adept-project.eu/images/Deliverables/Adept%20D2.3.pdf
+
 
 ## BLAS-type benchmarks
 
