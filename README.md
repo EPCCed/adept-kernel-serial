@@ -17,14 +17,15 @@ See the License for the specific language governing permissions and
 limitations under the License.
 
 
-# Adept Kernel Benchmarks - MPI
+#Adept Kernel Benchmarks - Serial
 
-This README describes the MPI parallel kernel benchmarks. They are implemented in C.
+This README describes the serial kernel benchmarks. They are implemented in C.
 
 ## Citation & Further Information
 If you would like to cite this work, please cite:
 Nick Johnson et al., "Adept Deliverable D2.3 - Updated Report on Adept Benchmarks", September 2015.
 available at http://www.adept-project.eu/images/Deliverables/Adept%20D2.3.pdf
+
 
 ## BLAS-type benchmarks
 
@@ -94,3 +95,6 @@ The user can choose the data type to be used in the grid (int, float or double).
 ## File parsing
 The file parsing benchmark creates a file filled with sequences of random characters, as well as a fixed search phrase (here: "AdeptProject"). The benchmark then searches through the file and counts the occurences of the search phrase. 
 The user can determine the size of the file by passing the number of lines to be created (using size).
+ 
+## Conjugate Gradient solver
+ This benchmark implements a simple CG solver, with a random matrix A of (user defined) size s. The CG computation includes BLAS computations (AXPY, AYPX and dot product) which are part of the slover loop. Only the solver loop is measured, the setup time is discarded.
