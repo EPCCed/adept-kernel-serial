@@ -19,7 +19,7 @@
 /* limitations under the License. */
 
 
-void bench_level1(char *, unsigned int, unsigned long, char *, char *);
+void bench_level1(char *, unsigned int, unsigned long, char *, char *, char *);
 
 int int_dot_product(unsigned int);
 int float_dot_product(unsigned int);
@@ -58,6 +58,7 @@ void double_stencil5(unsigned int);
 void fileparse(unsigned int);
 
 int conjugate_gradient(unsigned int);
+int conjugate_gradient_mixed(unsigned int);
 
 /* Marsaglia's RNGs (fast on Odroid) */
 /*

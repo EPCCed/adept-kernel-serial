@@ -17,7 +17,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 
 
-#Adept Kernel Benchmarks - Serial
+# Adept Kernel Benchmarks - Serial
 
 This README describes the serial kernel benchmarks. They are implemented in C.
 
